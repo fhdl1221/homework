@@ -1,6 +1,3 @@
-
-
-```jsx
 // TODO: 변수와 문자열
 // myCampus 변수를 선언하고, 이곳의 캠퍼스 이름을 할당한다
 // myCampus 변수를 출력한다
@@ -8,6 +5,8 @@
 /* 출력 결과
 성동캠퍼스
 */
+const myCampus = "성동캠퍼스";
+console.log(myCampus);
 
 // TODO: 불리언 자료형
 // isStudent 변수에 true를 할당하고, isWorking 변수에 false를 할당한다
@@ -17,6 +16,10 @@
 true
 false
 */
+const isStudent = true;
+const isWorking = false;
+console.log(isStudent);
+console.log(isWorking);
 
 // TODO: 문자열 연결
 // firstName 변수에 "홍"을, lastName 변수에 "길동"을 할당한다
@@ -25,6 +28,10 @@ false
 /* 출력 결과
 홍길동
 */
+const firstName = "홍";
+const lastName = "길동";
+const fullName = firstName + lastName;
+console.log(fullName);
 
 // TODO: 숫자 변수와 연산
 // age 변수에 25를 할당하고, 10년 후의 나이를 계산하여 futureAge 변수에 저장한다
@@ -33,6 +40,9 @@ false
 /* 출력 결과
 10년 후 나이: 35
 */
+const age = 25;
+const futureAge = age + 10;
+console.log(`10년 후 나이: ${futureAge}`);
 
 // TODO: 템플릿 리터럴
 // subject 변수에 "JavaScript"를, score 변수에 95를 할당한다
@@ -41,6 +51,9 @@ false
 /* 출력 결과
 JavaScript 점수: 95점
 */
+const subject = "JavaScript";
+const score = 95;
+console.log(`${subject} 점수: ${score}점`);
 
 // TODO: 비교 연산자
 // num1 변수에 15를, num2 변수에 20을 할당한다
@@ -49,6 +62,10 @@ JavaScript 점수: 95점
 /* 출력 결과
 true
 */
+const num1 = 15;
+const num2 = 20;
+const isSmaller = num1 < num2;
+console.log(isSmaller);
 
 // TODO: typeof 연산자
 // myString 변수에 "Hello"를, myNumber 변수에 42를, myBoolean 변수에 true를 할당한다
@@ -59,6 +76,12 @@ string
 number
 boolean
 */
+const myString = "Hello";
+const myNumber = 42;
+const myBoolean = true;
+console.log(typeof myString);
+console.log(typeof myNumber);
+console.log(typeof myBoolean);
 
 // TODO: 나머지 연산자와 조건
 // totalItems 변수에 17을 할당한다
@@ -67,6 +90,9 @@ boolean
 /* 출력 결과
 2
 */
+const totalItems = 17;
+const remainder = totalItems % 5;
+console.log(remainder);
 
 // TODO: 논리 연산자
 // hasLicense 변수에 true를, hasExperience 변수에 false를 할당한다
@@ -76,6 +102,10 @@ boolean
 false
 true
 */
+const hasLicense = true;
+const hasExperience = false;
+console.log(hasLicense && hasExperience);
+console.log(hasLicense || hasExperience);
 
 // TODO: 변수 재할당과 계산
 // price 변수를 100으로 선언하고 출력한다
@@ -86,4 +116,7 @@ true
 100
 80
 */
-```
+let price = 100;
+console.log(price);
+price *= 0.8;
+console.log(price);
